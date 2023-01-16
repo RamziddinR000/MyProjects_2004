@@ -1,0 +1,29 @@
+@keyframes example {
+from{left: 0; top: 0;}
+25% {right: -250px; top: 200px;
+transform: rotate(120deg);}
+50% {left: 250px; top: -150px;
+transform: rotate(240deg);}
+75% {right: 250px; top: 150px;
+transform: rotate(360deg);}
+to { left: 0; top: 0;}
+}
+.karobka {
+    animation: example 2s infinite ease-in;
+    animation-delay: 3s;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    opacity: 30%; 
+}
+div {
+background-image: url(https://static.vecteezy.com/system/resources/previews/002/092/160/original/elegant-gold-stars-background-free-vector.jpg);
+margin-top: 155px;
+}
+body {
+    overflow: hidden;
+}
+p { 
+    font-size: 30px;
+}
